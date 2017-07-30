@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">MediAidDoctor</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="DoctorDrawable_txtManageProfile_text">Manage Profile</string>
+    <string name="DoctortDrawable_txtAppointments_text">Appointments</string>
+    <string name="PatientDrawable_txtExpertAdvice_text">Expert Advice</string>
+    <string name="DoctorDrawable_txtReport_text">Reports</string>
+    <string name="DoctorDrawable_txtMedRem_text">Reminder</string>
+    <string name="DoctorDrawable_txtLogout_text">Logout</string>
+    <string name="LoginActivity_txtForgotPassword_text">Forgot Password</string>
+    <string name="nointernet">no internet</string>
+    <string name="LoginActivity_txtLogo_text">Medical</string>
+    <string name="LoginActivity_btnFacebook_text">Login with facebook</string>
+    <string name="LoginActivity_btnGoogle_text">Login with google+</string>
+    <string name="LoginActivity_btnLogin_text">LOGIN</string>
+    <string name="LoginActivity_etUserName_hint">Username...</string>
+    <string name="LoginActivity_etPassword_hint">Password...</string>
+    <string name="LoginActivity_txtCA_text">Create Account</string>
+    <string name="LoginActivity_txtForgot_text">Forgot Password?</string>
+    <string name="LoginActivity_txtOr_text">OR</string>
+    <string name="ReportActivity_txtReport_text">Reports</string>
+    <string name="SignUpActivity_txtSignUp_text">Sign Up</string>
+    <string name="SignUpActivity_etName_hint">Name</string>
+    <string name="SignUpActivity_etUserName_hint">Username</string>
+    <string name="SignUpActivity_etPassword_hint">Password...</string>
+    <string name="SignUpActivity_etConfirmPassword_hint">Confirm Password...</string>
+    <string name="SignUpActivity_etDOB_hint">D.O.B(dd/mm/yy)</string>
+    <string name="SignUpActivity_txtGender_text">Gender</string>
+    <string name="SignUpActivity_etEmail_hint">Email id...</string>
+    <string name="SignUpActivity_etPhoneNumber_hint">Phone Number...</string>
+    <string name="SignUpActivity_txtBloodGroup_text">Blood Group</string>
+    <string name="SignUpActivity_btnSign_text">Sign Up</string>
+    <string name="PatientDrawable_txtLogout_text">Logout</string>
+    <string name="title_activity_otp">Forgot Password</string>
+    <string name="title_activity_forgot_password">Forgot Password</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+    <string name="Change_Password_txtCurrentPassword">Current Password</string>
+    <string name="Change_Password_txtNewPassword">New Password</string>
+    <string name="Change_Password_txtConfirmPassword">Confirm Password</string>
+    <string name="Change_Password_Password_size">Minimum 6 characters</string>
+    <string name="title_activity_change_passowrd">ChangePassowrd</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_changePassword">Change Password</string>
+    <string name="menu_aboutUs">About Us</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="snackbar_username">Enter Username</string>
+    <string name="snackbar_password">Enter Password</string>
+    <string name="snackbar_passwordlimit">Enter Password of minimum six char</string>
+    <string name="snackbar_name">Enter Name</string>
+    <string name="snackbar_confirm_password">Enter Confirm Password</string>
+    <string name="snackbar_email">Enter Email</string>
+    <string name="snackbar_dob">Enter Date of Birth</string>
+    <string name="snackbar_gender">Enter Gender</string>
+    <string name="snackbar_blood_group">Enter Blood Group</string>
+    <string name="snackbar_phone">Enter Phone Number</string>
+    <string name="snackbar_current_password">Enter Current Password</string>
+    <string name="snackbar_new_password">Enter New Password</string>
+    <string name="snackbar_valid_email">Enter valid Email Id</string>
+    <string name="facebook_app_id">112022629319544</string>
+    <string name="snackbar_signupfail">Sign Up Failed</string>
+    <string name="snackbar_loginfailed">Either Username or Password is incorrect</string>
+
+    <string name="snackbar_updateFail">Update Fail</string>
+    <string name="snackbar_numbernotmatch">Number is incorrect</string>
+    <string name="snackbar_passwordnotmatch">Password does not match</string>
+    <string name="snackbar_datenotavailabe">Date not available</string>
+    <string name="snackbar_selecthospital">Select Hospital</string>
+    <string name="snackbar_selectdoctor">Select Doctor</string>
+    <string name="snackbar_selectdate">Select date</string>
+    <string name="snackbar_selecttime">Select time</string>
+    <string name="snackbar_wieght">Enter Wieght</string>
+    <string name="snackbar_tryAgain">Try Again</string>
+    <string name="title_activity_login_page">LoginPage</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="title_activity_report_view">ReportView</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_feed_back">FeedBack</string>
+
+
+</resources>

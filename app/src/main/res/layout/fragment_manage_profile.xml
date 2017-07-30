@@ -1,0 +1,106 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/layout_progressbar" />
+
+        <LinearLayout
+            android:id="@+id/manageprofilelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            tools:context="mediaid.dt.medical.doctor.mediaiddoctor.fragment.ManageProfile">
+
+            <!-- TODO: Update blank fragment layout -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imagePerson"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+
+                    android:background="@drawable/ic_profile" />
+
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/imagePerson"
+                    android:layout_alignRight="@id/imagePerson"
+                    android:src="@android:drawable/ic_menu_camera" />
+            </RelativeLayout>
+
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+
+                android:drawableLeft="@drawable/ic_name"
+                android:drawablePadding="10dp"
+                android:hint="Enter name"
+                android:textStyle="bold" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/ic_mzil"
+                android:drawablePadding="10dp"
+                android:hint="Enter Email"
+                android:textStyle="bold" />
+
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/etPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/ic_phone"
+                android:drawablePadding="10dp"
+                android:hint="Enter Phone Number"
+                android:textStyle="bold" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txtGender"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/ic_gender"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/ic_drop_down"
+                android:gravity="top|bottom"
+                android:text="Enter Gender" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lineColor">
+
+            </View>
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/list_gradbutton"
+                android:text="SAVE"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

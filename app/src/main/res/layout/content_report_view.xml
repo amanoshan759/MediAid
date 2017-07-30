@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="mediaid.dt.medical.doctor.mediaiddoctor.ReportView"
+        tools:showIn="@layout/activity_report_view">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt1_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RBC" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt1_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="155dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt2_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Haemoglobin" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt2_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="75dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt3_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MVC" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt3_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="155dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt4_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WRV" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt4_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="155dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt5_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neutrophils" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt5_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="95dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt6_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lymphocytes" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt6_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="80dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt7_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monocytes" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt7_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="100dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt8_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eosinophils" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt8_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="98dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt9_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Basophils" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt9_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="115dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt10_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Platelets" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt10_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="125dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt11_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blood Urea" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt11_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="105dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt12_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Serum Uric Acid" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt12_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="60dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt13_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Serum Bilirubin" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt13_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="68dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt14_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alkaline Phosphate" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt14_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="35dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt15_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sodium" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt15_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="135dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt16_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Potassium" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt16_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="110dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt17_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chlorides" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt17_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="120dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt18_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calcium" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt18_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="135dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt19_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phosphorus" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt19_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="100dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt20_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Acid Phosphates" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt20_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="58dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt21_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Proteins" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt21_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="135dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt22_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Albumin" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt22_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="135dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyTextViewNormal
+                android:id="@+id/txt23_1"
+                style="@style/TextViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fasting Blood Sugar" />
+
+            <mediaid.dt.medical.doctor.mediaiddoctor.views.MyEditTextNormal
+                android:id="@+id/txt23_2"
+                style="@style/EdiTextReport"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
